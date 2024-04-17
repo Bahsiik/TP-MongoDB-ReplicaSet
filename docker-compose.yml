@@ -42,6 +42,7 @@ services:
 
 
   mongo-init-replica:
+    container_name: mongo-init-replica
     command: >
       bash -c
       "sleep 10 &&
