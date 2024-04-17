@@ -34,7 +34,7 @@ class CrudAutomatisation:
 # Usage example
 def main():
     # Initialize the CRUD automatisation class
-    crud = CrudAutomatisation('automatisation2', 'users')
+    crud = CrudAutomatisation('db_auto', 'users')
 
     # Import data from users.json
     with open("./users.json", "r") as f:
